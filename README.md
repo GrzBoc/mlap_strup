@@ -15,28 +15,28 @@ Midterm homework
 
 
 ### Home screen
-<p align="center"> <img src="/screenshots/01%20home.png" width="800"  height="600" ></p>
+<p align="center"> <img src="/screenshots/01%20home.png" width="800"  height="480" ></p>
 
 ### Sign up screen
-<p align="center"> <img src="/screenshots/02%20signup.png" width="800"  height="600" ></p>
+<p align="center"> <img src="/screenshots/02%20signup.png" width="800"  height="480" ></p>
 
 ### Login screen
-<p align="center"> <img src="/screenshots/03%20login.png" width="800"  height="600" ></p>
+<p align="center"> <img src="/screenshots/03%20login.png" width="800"  height="480" ></p>
 
 ### Home logged screen
-<p align="center"> <img src="/screenshots/04%20home_logged.png" width="800"  height="600" ></p>
+<p align="center"> <img src="/screenshots/04%20home_logged.png" width="800"  height="480" ></p>
 
 ### Profile screen
-<p align="center"> <img src="/screenshots/05%20profile.png" width="800"  height="600" ></p>
+<p align="center"> <img src="/screenshots/05%20profile.png" width="800"  height="480" ></p>
 
 ### Preditc pay screen
-<p align="center"> <img src="/screenshots/10%20predict_pay.png" width="800"  height="600" ></p>
+<p align="center"> <img src="/screenshots/10%20predict_pay.png" width="800"  height="480" ></p>
 
 ### Preditc payment screen
-<p align="center"> <img src="/screenshots/11%20predict_payment.png" width="800"  height="600" ></p>
+<p align="center"> <img src="/screenshots/11%20predict_payment.png" width="800"  height="480" ></p>
 
 ### Preditcion setup screen
-<p align="center"> <img src="/screenshots/11%20predict_setup.png" width="800"  height="600" ></p>
+<p align="center"> <img src="/screenshots/11%20predict_setup.png" width="800"  height="480" ></p>
 
 ### Preditcion result screen
-<p align="center"> <img src="/screenshots/11%20predict_output.png" width="800"  height="600" ></p>
+<p align="center"> <img src="/screenshots/11%20predict_output.png" width="800"  height="480" ></p>
