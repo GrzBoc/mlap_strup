@@ -7,19 +7,19 @@ import stripe
 
 # firebase login management
 config = {
-    "apiKey": "AIzaSyDoPJa0ZEfmJAHSjhes4fs_IYl-iCdZ9no",
-    "authDomain": "mmgb-71d7c.firebaseapp.com",
-    "databaseURL": "https://mmgb-71d7c.firebaseio.com",
-    "projectId": "mmgb-71d7c",
+    "apiKey": "",
+    "authDomain": "",
+    "databaseURL": "",
+    "projectId": "",
     "storageBucket": "",
-#    "messagingSenderId": "1074733389368",
-#    "appId": "1:1074733389368:web:3e18f1312cb3413a0238cd",
-#    "measurementId": "G-3X4W23EJ68"
+#    "messagingSenderId": "",
+#    "appId": "",
+#    "measurementId": ""
     }
 
 # setting up stripe test environment
-STRIPE_PUBLISHABLE_KEY = 'pk_test_omDHnDeOVnBm3GP5X55ClS4S00Q4BzfbI1'  
-STRIPE_SECRET_KEY = 'sk_test_sXIujAf7GCL5fKCT7X8xgS5t00U1i6gj1J'
+STRIPE_PUBLISHABLE_KEY = ''  
+STRIPE_SECRET_KEY = ''
 
 stripe.api_key = STRIPE_SECRET_KEY
 
