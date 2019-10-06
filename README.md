@@ -1,6 +1,8 @@
 # mlap_strup
-Midterm homework
+## Midterm homework
+### Team: Standalone 
 
+### Application structure
 1. Simple application for predicting flight delays based Kaggle competition dataset
 2. Model calibration can be found in [notebook](https://github.com/GrzBoc/mlap_strup/blob/master/model_notebook/gb_HW05_def.ipynb)
 3. Application operational model:
