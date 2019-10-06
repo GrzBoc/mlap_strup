@@ -29,14 +29,14 @@ Midterm homework
 ### Profile screen
 <p align="center"> <img src="/screenshots/05%20profile.png" width="800"  height="480" ></p>
 
-### Preditc pay screen
+### Predict pay screen
 <p align="center"> <img src="/screenshots/10%20predict_pay.png" width="800"  height="480" ></p>
 
-### Preditc payment screen
+### Predict payment screen
 <p align="center"> <img src="/screenshots/11%20predict_payment.png" width="800"  height="480" ></p>
 
-### Preditcion setup screen
+### Prediction setup screen
 <p align="center"> <img src="/screenshots/11%20predict_setup.png" width="800"  height="480" ></p>
 
-### Preditcion result screen
+### Prediction result screen
 <p align="center"> <img src="/screenshots/11%20predict_output.png" width="800"  height="480" ></p>
