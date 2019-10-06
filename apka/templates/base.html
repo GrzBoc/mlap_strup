@@ -1,0 +1,76 @@
+<!-- templates/base.html -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flight delay prediction</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" />
+</head>
+
+<body>
+    <section class="hero is-light is-fullheight">
+
+        <div class="hero-head">
+             <nav class="navbar">
+                <div class="container">
+
+                    <div id="navbarMenuHeroA" class="navbar-menu">
+		      <div class="navbar-brand">
+			<div class="buttons">
+                            <a href="{{ url_for('main.index') }}" class="button is-danger">
+                                Flight delay prediction app
+                            </a>
+			</div>
+		      </div>
+
+                        <div class="navbar-end">
+			<div class="buttons">
+                            <a href="{{ url_for('main.index') }}" class="button is-info">
+                                Home
+                            </a>
+
+                            {% if session.get('logged_in')%}
+                            <a href="{{ url_for('main.pay') }}" class="button is-danger">
+                                Predict
+                            </a>
+                            {% endif %}
+			
+                            {% if session.get('logged_in') %}
+                            <a href="{{ url_for('main.profile') }}" class="button is-primary">
+                                Profile
+                            </a>
+                            {% endif %}
+                            {% if not session.get('logged_in') %}
+                            <a href="{{ url_for('auth.login') }}" class="button is-info">
+                                Login
+                            </a>
+                            <a href="{{ url_for('auth.signup') }}" class="button is-info">
+                                Sign Up
+                            </a>
+                            {% endif %}
+                            {% if session.get('logged_in') %}
+                            <a href="{{ url_for('auth.logout') }}" class="button is-dark"">
+                                Logout
+                            </a>
+                            {% endif %}
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="hero-body">
+            <div class="container has-text-centered">
+               {% block content %}
+               {% endblock %}
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!-- templates/profile.html -->
+
+{% extends "base.html" %}
+
+{% block content %}
+<div class="column is-6 is-offset-3">
+    <h4 class="title">Prediction</h4>
+    <div class="box">
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <div class="notification is-danger">
+                {{ messages[0] }}. Go to <a href="{{ url_for('auth.login') }}">login page</a>.
+            </div>
+        {% endif %}
+        {% endwith %}
+        <form>
+	    <div class="field"> <div class="control"> <label class="label is-normal has-background-light">Probability of flight delay: </label> </div> </div>
+            <div class="field"> <div class="control"> <label class="label is-normal has-text-danger">{{ prediction }} </label> </div> </div>
+
+
+            <div class="field"> <div class="control"> <label class="label is-normal has-background-light">flight from: </label> </div> </div>
+            <div class="field"> <div class="control"> <label class="label is-normal has-text-link">{{ txt_origin }} </label> </div> </div>
+
+
+            <div class="field"> <div class="control"> <label class="label is-normal has-background-light">flight to: </label> </div> </div>
+            <div class="field"> <div class="control"> <label class="label is-normal has-text-link">{{ txt_destination }} </label> </div> </div>
+
+            <div class="field"> <div class="control"> <label class="label is-normal has-background-light">with: </label> </div> </div>
+            <div class="field"> <div class="control"> <label class="label is-normal has-text-link">{{ txt_airline }} </label> </div> </div>
+
+            <div class="field"> <div class="control"> <label class="label is-normal has-background-light">on: </label> </div> </div>
+            <div class="field"> <div class="control"> <label class="label is-normal has-text-link">{{ text_day }}, {{ text_tofd }} </label> </div> </div>
+            
+	    <div class="field"> <div class="control"> <label class="label is-normal has-background-light">in: </label> </div> </div>
+            <div class="field"> <div class="control"> <label class="label is-normal has-text-link">{{ text_ssn }} </label> </div> </div>
+
+
+        </form>
+
+
+    </div>
+</div>
+
+
+{% endblock %}
