@@ -2,8 +2,15 @@
 Midterm homework
 
 1. Simple application for predicting flight delay based Kaggle competition dataset
-2. Model 
-
+2. Model calibration can be found in [notebook](https://github.com/GrzBoc/mlap_strup/blob/master/model_notebook/gb_HW05_def.ipynb)
+3. Application operational model:
+  - sing up is required to have access to flight delay functionality
+  - then to be able to have a prediction an upfront payment has to be done
+  - after payment predition configuration panel is opend
+4. Application configuration:
+  - app is based on firebase auth engine, therefore to run it, configuration of config variable in __init__.py is required
+  - payments are configured to Stripe test functionality and also require setting variable STRIPE_PUBLISHABLE_KEY, STRIPE_SECRET_KEY in __init__.py file
+ 5. Application run in local environment by running gbaka.py with adress 127.0.0.1:4000
 
 
 
